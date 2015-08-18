@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejemplo_T10Menu</string>
+    <string name="action_settings">Settings</string>
+	<string name="nombre">Nombre</string>
+	<string name="ot">Otra&#8230;</string>
+	<string name="ab">About</string>
+	<string name="fn">Fin</string>
+	<string name="uno">Uno</string>
+	<string name="dos">Dos</string>
+	<string name="tres">Tres</string>
+	<string name="cuatro">Cuatro</string>
+	<string name="cinco">Cinco</string>
+	<string name="cerrar">Cerrar</string>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item 
+        android:id="@+id/mnuOpen"
+        android:title="@string/ot" />
+    <item
+        android:id="@+id/mnuAbout"
+        android:title="@string/ab"
+        android:icon="@drawable/accept" />
+    <item
+        android:id="@+id/mnuFin"
+        android:title="@string/fn"
+        android:icon="@drawable/end" 
+        android:showAsAction="ifRoom|withText" />
+</menu>

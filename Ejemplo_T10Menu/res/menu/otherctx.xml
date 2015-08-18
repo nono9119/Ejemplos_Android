@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+   <group android:checkableBehavior="all" >
+       <item
+           android:id="@+id/mnuUnoUno"
+           android:title="@string/uno" />
+       <item 
+           android:id="@+id/mnuUnoDos"
+           android:title="@string/dos" />
+   </group>
+    
+   <group>
+       <item 
+           android:id="@+id/mnuTres"
+           android:title="@string/cerrar"
+           android:onClick="cmdCerrarClick" />
+   </group> 
+
+   <group android:checkableBehavior="single">
+       <item 
+           android:id="@+id/mnuDosUno"
+           android:title="@string/tres" />
+       <item
+           android:id="@+id/mnuDosDos"
+           android:title="@string/cuatro" />
+       <item
+           android:id="@+id/mnuDosTres"
+           android:title="@string/cinco" />
+   </group>
+</menu>

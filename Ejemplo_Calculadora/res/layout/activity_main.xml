@@ -1,0 +1,106 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+
+    <TextView
+        android:id="@+id/label_A"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/opA" />
+        
+	<EditText
+        android:id="@+id/op_a"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/label_A"
+        android:layout_below="@+id/label_A"
+        android:background="@android:drawable/editbox_background"
+        android:ems="10"
+        android:inputType="number" >
+        
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/label_b"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/op_a"
+        android:text="@string/opB"/>
+
+    <EditText
+   	    android:id="@+id/op_b"
+   	    android:layout_width="fill_parent"
+   	    android:layout_height="wrap_content"
+   	    android:layout_below="@+id/label_b"
+   	    android:background="@android:drawable/editbox_background"
+   	    android:inputType="number" />
+    
+    <Button
+        android:id="@+id/sumar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/op_b"
+        android:layout_below="@+id/op_b"
+        android:layout_marginTop="24dp"
+        android:onClick="sumar"
+        android:text="@string/suma" />
+    
+    <Button
+        android:id="@+id/restar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/sumar"
+        android:layout_alignTop="@+id/sumar"
+        android:onClick="restar"
+        android:text="@string/menos" />
+
+    <Button
+        android:id="@+id/multiplicar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/restar"
+        android:layout_alignTop="@+id/restar"
+        android:onClick="multiplicar"
+        android:text="@string/asterisco" />
+
+    <Button
+        android:id="@+id/dividir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/multiplicar"
+        android:layout_alignTop="@+id/sumar"
+        android:onClick="dividir"
+        android:text="@string/barra" />
+
+    <TextView
+        android:id="@+id/resultado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/texto_resultado"
+        android:text="@string/res" />
+
+
+    <TextView
+        android:id="@+id/texto_resultado"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/resultado"
+        android:layout_centerVertical="true"
+        android:text="@string/resultado" />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/resultado"
+        android:src="@drawable/androidlogo" />
+
+</RelativeLayout>

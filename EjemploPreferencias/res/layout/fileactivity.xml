@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FileActivity" >
+
+	<LinearLayout 
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TextView 
+	        android:id="@+id/lblFichero"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Fichero: " />
+	    <TextView 
+	        android:id="@+id/txtFichero"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="MiFile.txt" />
+	</LinearLayout>
+	
+	<TableLayout 
+	    android:id="@+id/tableLayout1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+	    
+	    <TableRow 
+	        android:id="@+id/tableRow1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+	        
+	        <TextView
+	            android:id="@+id/lblDatos"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:text="Datos: " />
+	        
+	        <EditText 
+	            android:id="@+id/txtDatos"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content">
+	            <requestFocus />
+	       	</EditText>    
+	        </TableRow>
+	</TableLayout>
+	
+	<Button 
+	    android:id="@+id/cmdGrabar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="Grabar"
+	    android:onClick="cmdGrabar_Click" />
+
+</LinearLayout>

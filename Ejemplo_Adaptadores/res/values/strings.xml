@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ejemplo_Adaptadores</string>
+    <string name="action_settings">Settings</string>
+    <string name="list">Lista</string>
+    <string name="modlist">Lista Modificada</string>
+    <string name="spin">Spinner</string>
+    <string name="gal">Galería</string>
+    <string name="explist">Lista Expansible</string>
+    <string-array name="lista">
+        <item>Calle</item>
+        <item>Avenida</item>
+        <item>Plaza</item>
+        <item>Carretera</item>
+        <item>Paseo</item>
+        <item>Travesía</item>
+        <item>Otros&#8320;</item>            
+    </string-array>
+</resources>

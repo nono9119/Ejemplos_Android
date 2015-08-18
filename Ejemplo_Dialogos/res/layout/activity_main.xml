@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity" >
+
+    <Button 
+        android:id="@+id/cmdDlg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg1_Click"
+        android:text="Dlg Uno" />
+
+    <Button 
+        android:id="@+id/cmdDlg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg2_Click"
+        android:text="Dlg Dos" />
+	
+	<Button 
+        android:id="@+id/cmdDlg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg3_Click"
+        android:text="Dlg Tres" />
+
+	<Button 
+        android:id="@+id/cmdDlg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg4_Click"
+        android:text="Dlg Cuatro" />
+          
+	<Button 
+        android:id="@+id/cmdDlg5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg5_Click"
+        android:text="Dlg Cinco" />
+	
+	<Button 
+        android:id="@+id/cmdDlg6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="cmdDlg6_Click"
+        android:text="Dlg Seis" />
+	
+</LinearLayout>

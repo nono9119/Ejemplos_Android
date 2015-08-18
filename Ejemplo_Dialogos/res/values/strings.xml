@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejemplo_Dialogos</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_dlg3">Dlg3</string>
+    <string name="title_activity_dlg6">Dlg6</string>
+
+</resources>

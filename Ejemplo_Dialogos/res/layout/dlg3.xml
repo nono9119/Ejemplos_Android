@@ -1,0 +1,26 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+	android:stretchColumns="1"
+    tools:context=".Dlg3" >
+
+    <TableRow>
+        <TextView 
+            android:text="Nombre:"
+            android:layout_marginRight="4dip" />
+        <EditText
+            android:id="@+id/name"
+            android:inputType="text|textCapWords" />
+    </TableRow>
+    
+    <TableRow>
+        <TextView 
+            android:text="Url:"
+            android:layout_marginRight="4dip" />
+        <EditText
+            android:id="@+id/url"
+            android:inputType="textUri" />
+    </TableRow>
+
+</TableLayout>

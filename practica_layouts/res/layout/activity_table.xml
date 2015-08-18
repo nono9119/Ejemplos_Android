@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+	<TableRow
+	    android:id="@+id/tableRow1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center" >
+
+		<TextView
+		    android:id="@+id/textoPrueba8"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:text="Disposicion de los elementos" />
+   
+	</TableRow>
+	    
+   	<TableRow
+   	    android:id="@+id/tableRow2"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center_horizontal" >
+
+   		<TextView
+   		    android:id="@+id/textoPrueba9"
+   		    android:layout_width="wrap_content"
+   		    android:layout_height="wrap_content"
+   		    android:text="en un TableLayout" />
+
+   	</TableRow>	
+   	
+   	<TableRow
+   	    android:id="@+id/tableRow2"
+   	    android:layout_width="wrap_content"
+   	    android:layout_height="wrap_content"
+   	    android:gravity="center_horizontal" >
+
+   		<Button
+   	    	android:id="@+id/cmdVolver"
+   	    	android:layout_width="wrap_content"
+   	    	android:layout_height="wrap_content"
+   	    	android:onClick="cmdVolver"
+   	    	android:text="Volver" />
+
+   	</TableRow>
+</TableLayout>

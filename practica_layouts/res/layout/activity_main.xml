@@ -1,0 +1,72 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow 
+        android:id="@+id/tableLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <Button 
+            android:id="@+id/cmdFrame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FrameLayout"
+            android:onClick="cmdButtonClick" />
+    </TableRow>
+    
+        <TableRow
+            android:id="@+id/tableLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal" >
+
+        <Button 
+            android:id="@+id/cmdLinear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LinearLayout"
+            android:onClick="cmdButtonClick" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right" >
+
+        <Button
+            android:id="@+id/cmdRelative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cmdButtonClick"
+            android:text="RelativeLayout" />
+    </TableRow>
+    
+    <TableRow
+        android:id="@+id/tableLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/cmdGrid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cmdButtonClick"
+            android:text="GridLayout" />
+    </TableRow>
+    
+    <TableRow 
+        android:id="@+id/tableLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cmdTable"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="cmdButtonClick"
+            android:text="TableLayout" />
+    </TableRow>
+</TableLayout>

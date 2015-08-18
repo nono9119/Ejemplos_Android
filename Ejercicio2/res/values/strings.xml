@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Ejercicio22</string>
+    <string name="action_settings">Settings</string>
+    
+    <string-array name="lista">
+	    <item>Mensaje</item>
+	    <item>TableLayout</item>
+	    <item>Imagen</item>
+	    <item>Salir</item>
+	</string-array>
+	
+	<string name="vlv">Volver</string>
+	<string name="acc">Acerca de...</string>
+	<string name="cerrar">Cerrar</string>
+	<string name="info">Informacion</string>
+	<string name="pr1">Texto de prueba</string>
+	<string name="pr2">para el examen</string>
+
+</resources>
